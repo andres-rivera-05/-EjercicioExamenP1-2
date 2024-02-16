@@ -8,7 +8,7 @@ fetch("https://fakestoreapi.com/products")
     for(let producto of data){
 
         card+=`
-        <div class="col-6 col-md-4 col-lg-3 mt-3">
+        <div class="col-12 col-md-6 col-lg-3 mt-3">
            <div class="card">
               <img src="${producto.image}" class="card-img-top" alt="...">
                 <div class="card-body">
